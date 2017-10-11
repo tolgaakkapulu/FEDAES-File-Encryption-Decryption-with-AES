@@ -572,8 +572,8 @@ class Ui_MainWindow(object):
         self.pushButton_4.setEnabled(True)
 
         Ui_MainWindow.filePath_first = str(QFileDialog.getOpenFileName(options=QFileDialog.ShowDirsOnly))
-        Ui_MainWindow.filePath = Ui_MainWindow.filePath_first[2:-6]
-        Ui_MainWindow.fileName = Ui_MainWindow.filePath_first[2:-6].split("/")
+        Ui_MainWindow.filePath = Ui_MainWindow.filePath_first[2:-19]
+        Ui_MainWindow.fileName = Ui_MainWindow.filePath_first[2:-19].split("/")
         self.label_8.setText(Ui_MainWindow.fileName[-1])
         digits = []
         value = int(os.path.getsize(Ui_MainWindow.filePath))
@@ -648,8 +648,8 @@ class Ui_MainWindow(object):
         self.pushButton_13.setEnabled(True)
 
         Ui_MainWindow.filePath_first = str(QFileDialog.getOpenFileName(options=QFileDialog.ShowDirsOnly))
-        Ui_MainWindow.filePath = Ui_MainWindow.filePath_first[2:-6]
-        Ui_MainWindow.fileName = Ui_MainWindow.filePath_first[2:-6].split("/")
+        Ui_MainWindow.filePath = Ui_MainWindow.filePath_first[2:-19]
+        Ui_MainWindow.fileName = Ui_MainWindow.filePath_first[2:-19].split("/")
         self.label_28.setText(Ui_MainWindow.fileName[-1])
         digits = []
         value = int(os.path.getsize(Ui_MainWindow.filePath))
