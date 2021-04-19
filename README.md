@@ -1,4 +1,4 @@
-# FEDAES-File_Encryption-Decryption_with_AES
+# FEDAES - File Encryption Decryption with AES
 
 It was designed with Qt Designer and written in Python language. The purpose is to ensure that files are easily encrypted or decrypted files are in order to ensure the security and privacy of files.
 <br><br>
